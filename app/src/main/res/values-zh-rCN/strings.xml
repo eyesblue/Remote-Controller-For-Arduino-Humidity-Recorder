@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FirstActivity -->
+    <string name="app_name">湿度记录器</string>
+    <string name="appDescriptor">本App为湿度记录器所开发，与之通讯之用，您可以在$ARDUINO_HUB找到该计划，您必须要有相对应的湿度记录器才能使用本App。请先于控制台以蓝芽与湿度记录器连接。</string>
+    <string name="action_settings">设定</string>
+    <string name="battery_state">电池状态</string>
+    <string name="btn_list_paired_dev">列出已配对的蓝芽装置</string>
+    <string name="pairNewDevice">配对新的装置</string>
+    <string name="dev_not_conn">装置未连接，请先连接蓝芽装置</string>
+    <string name="connecting">连接中 …</string>
+    <string name="recorder_dev_not_found">湿度记录器不存在，无法连接！</string>
+    <string name="sock_creation_failed">无法建立Socket!</string>
+    <string name="noBThost">您的手机/平板不支援蓝芽！</string>
+    <string name="btOff">关闭蓝芽</string>
+    <string name="btOn">开启蓝芽</string>
+    <string name="discover">搜寻装置</string>
+    <string name="enableStr">开启</string>
+    <string name="disableStr">关闭</string>
+    <string name="btNotOn">蓝芽未开启，请先开启蓝芽</string>
+    <string name="selectBtDev">请选择蓝芽装置</string>
+    <string name="btTurnOn">蓝芽已开启</string>
+    <string name="btTurnOff">蓝芽已关闭</string>
+    <string name="discoverStart">探索中</string>
+    <string name="discoverStop">已停止探索</string>
+
+    <!-- MainActivity -->
+    <string name="dev_opts">装置设定选项</string>
+    <string name="get_humidity_data">取得记录资料</string>
+    <string name="humidity">湿度</string>
+    <string name="last_rec_addr">最后纪录位址</string>
+    <string name="minute">分钟</string>
+    <string name="rec_interval">纪录时间间格</string>
+    <string name="sync_time">同步时间</string>
+    <string name="temp">温度</string>
+    <string name="btn_refreshState">刷新状态</string>
+    <string name="devStateText">装置状态</string>
+    <string name="upTimeText">运行时间</string>
+    <string name="dayStr">日</string>
+    <string name="hourStr">时</string>
+    <string name="minStr">分</string>
+    <string name="secStr">秒</string>
+    <string name="fine">良好</string>
+    <string name="lowPower">电量不足</string>
+    <string name="ioeStr">与装置通讯时发生输出入错误!!!</string>
+    <string name="devOffline">装置已离线，请检查记录器运作是否正常。</string>
+    <string name="dataSaveToFile">资料同步储存于%s</string>
+    <string name="brightness">亮度</string>
+    <string name="humidityTransferring">湿度资料传输中…</string>
+    <string name="humidityTransferSuccess">共读取 $1%d 位元组，花费 $2%d 毫秒</string>
+    <string name="setBrightMsg">设定亮度为 $1%d</string>
+    <string name="setRecIntervalMsg">设定纪录时间为 $1%d 分钟</string>
+    <string name="getDevStateMsg">取得装置状态…</string>
+    <string name="commSuccess">通讯完成</string>
+
+    <!-- ChartActivity -->
+    <string name="title_activity_chart">图表</string>
+    <string name="chartDescFmt">%d笔纪录, 间格%d分钟, 最后纪录时间%s, 左旧右新</string>
+    <string name="readSpendStr">读取 %d 位元组, 耗时 %d 毫秒</string>
+    <string name="menu_open">开启</string>
+    <string name="delete">删除</string>
+
+    <!-- List file Activity -->
+    <string name="listActivityName">载回记录</string>
+    <string name="noHistoryFile">无档案。</string>
+</resources>

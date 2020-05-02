@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "800355808256",
+    "firebase_url": "https://humidityrecorder.firebaseio.com",
+    "project_id": "humidityrecorder",
+    "storage_bucket": "humidityrecorder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800355808256:android:2aff004e99f4e496bf94e5",
+        "android_client_info": {
+          "package_name": "eyes.blue.humidityrecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800355808256-si1v58b1ai5fu8so2chpk95v1so16thk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn1TnUqfjIV4ETKI4bIzqHvDS07i_fqIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800355808256-si1v58b1ai5fu8so2chpk95v1so16thk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

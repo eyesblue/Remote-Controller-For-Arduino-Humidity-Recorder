@@ -1,0 +1,2 @@
+rootProject.name='HumidityRecorder'
+include ':app'

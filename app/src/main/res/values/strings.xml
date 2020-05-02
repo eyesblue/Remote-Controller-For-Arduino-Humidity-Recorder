@@ -1,0 +1,67 @@
+<resources>
+    <!-- FirstActivity -->
+    <string name="app_name">Humidity Recorder</string>
+    <string name="appDescriptor">The app is design for humidity recorder made by Eyes Blue, you may find the project on $ARDUINO_HUB, however, you must have the corresponding device or the app not useful to you, please connect to device with bluetooth in control panel first.</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_list_paired_dev">List paired bluetooth device</string>
+    <string name="pairNewDevice">Pair new device</string>
+    <string name="dev_not_conn">Device not connect, connect device first please.</string>
+    <string name="connecting">Connecting …</string>
+    <string name="recorder_dev_not_found">Humidity recorder device not found!</string>
+    <string name="sock_creation_failed">Socket creation failed!</string>
+    <string name="noBThost">Your device not support bluetooth!</string>
+    <string name="discover">Discover</string>
+    <string name="btOff">BT Off</string>
+    <string name="btOn">BT On</string>
+    <string name="enableStr">Enable</string>
+    <string name="disableStr">Disable</string>
+    <string name="btNotOn">Bluetooth not on, turn on bluetooth first please.</string>
+    <string name="selectBtDev">Select Device</string>
+    <string name="btTurnOn">Bluetooth truned On.</string>
+    <string name="btTurnOff">Bluetooth turned Off.</string>
+    <string name="discoverStart">Discover Started</string>
+    <string name="discoverStop">Discover Stoped</string>
+
+    <!-- MainActivity -->
+    <string name="sync_time">Sync Time</string>
+    <string name="get_humidity_data">Get data</string>
+    <string name="dev_opts">Options for device</string>
+    <string name="rec_interval">Record interval</string>
+    <string name="minute">minute</string>
+    <string name="battery_state">Battery State</string>
+    <string name="last_rec_addr">Last rec addr</string>
+    <string name="temp">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="btn_refreshState">Refresh</string>
+    <string name="devStateText">Device status</string>
+    <string name="dataSaveToFile">Data save to %s</string>
+    <string name="upTimeText">Uptime</string>
+    <string name="dayStr">day</string>
+    <string name="hourStr">h </string>
+    <string name="minStr">m </string>
+    <string name="secStr">s</string>
+    <string name="fine">Fine</string>
+    <string name="lowPower">Low Power</string>
+    <string name="ioeStr">I/O Error while communication with device !!!</string>
+    <string name="devOffline">Device offline, please check recorder device.</string>
+    <string name="brightness">Brightness</string>
+    <string name="humidityTransferring">Humidity data transferring…</string>
+    <string name="humidityTransferSuccess">Read %d byte finish, spend %d ms.</string>
+    <string name="setBrightMsg">Set bright to %d.</string>
+    <string name="setRecIntervalMsg">Set Record interval to per %d minute.</string>
+    <string name="getDevStateMsg">Get device status…</string>
+    <string name="commSuccess">Communication success.</string>
+
+    <!-- ChartActivity -->
+    <string name="title_activity_chart">ChartActivity</string>
+    <string name="chartDescFmt">%dRecs, Interval %d Min, Last Rec Time: %s, left old right new.</string>
+    <string name="readSpendStr">Read %d bytes finsih, spend %d ms</string>
+    <string name="delete">Delete</string>
+    <string name="menu_open">Open</string>
+
+    <!-- List file Activity -->
+    <string name="listActivityName">Reload history</string>
+    <string name="noHistoryFile">No file exist.</string>
+
+
+</resources>
